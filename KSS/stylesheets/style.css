@@ -1,0 +1,76 @@
+/*
+Error: File to import not found or unreadable: breakpoint.
+       Load paths:
+         Compass::SpriteImporter
+         /_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass
+         /_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.1/stylesheets
+        on line 4 of /_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass/global/_config.scss
+        from line 4 of /_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass/style.scss
+
+1: 
+2: // Only partials are imported here
+3: 
+4: @import 'global/config';
+
+Backtrace:
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass/global/_config.scss:4
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass/style.scss:4
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:45:in `import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:315:in `map'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:88:in `block in with_import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:88:in `with_import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/tree/root_node.rb:20:in `render'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/engine.rb:268:in `render'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `each'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:293:in `watch'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/lib/compass/sass_compiler.rb:46:in `watch!'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/lib/compass/commands/watch_project.rb:41:in `perform'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/bin/compass:44:in `call'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/bin/compass:23:in `load'
+/_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: breakpoint.\A        Load paths:\A          Compass::SpriteImporter\A          /_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass\A          /_work/SASS-TO/03-SASS-TO-styleguide/KSS/vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.1/stylesheets\A         on line 4 of /_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass/global/_config.scss\A         from line 4 of /_work/SASS-TO/03-SASS-TO-styleguide/KSS/sass/style.scss\A \A 1: \A 2: // Only partials are imported here\A 3: \A 4: @import 'global/config';"; }

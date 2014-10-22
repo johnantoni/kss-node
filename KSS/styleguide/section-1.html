@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>KSS: Living Styleguide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="../css/styleguide.css">
+</head>
+<body><div id="kss-wrapper">
+
+<div id="kss-nav">
+  <header id="kss-header">
+    <hgroup><h1>kss-node Styleguide</h1></hgroup>
+  </header>
+  <aside>
+    <nav><ul>
+      <li><a href="index.html">0.0: Overview</a></li>
+      <li><a href="section-1.html">1.0: Typography &amp; Base Elements</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-2.html">2.0: Links &amp; Buttons</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-2.html#2.1">2.1: Link Styles</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-3.html">3.0: Panels</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-3.html#3.1">3.1: Message Box //</a>
+            <li><a href="section-3.html#3.1">3.1: Tabs</a>
+        </ul>
+        -->
+      </li>
+    </ul></nav>
+  </aside>
+</div>
+<div role="main" id="kss-main">
+  <article id="kss-content">
+
+
+      <h1 class="kss-title"><span class="kss-ref">1.0</span> - Typography &amp; Base Elements</h1>
+
+        <div class="kss-box"><p>Here&#39;s a general mix of the basic type styles used in the site<p>
+<h1>H1 - Heading Level 1</h1>
+<p>The H1 is 32px on medium displays and 48px on larger screens. Ut sodales, lorem quis ultrices sollicitudin, massa dui tempus dolor, , elit ut accumsan luctus, eros dolor eleifend dolor</p>
+<h2> Heading level 2 -  Pellentesque sed sollicitudin lacus, </h2>
+<p>These headings switch between 20px, and 26px on larger screens. at molestie odio. Ut sodales, lorem quis ultrices sollicitudin, massa dui tempus dolor, at cursus erat urna vitae justo. </p>
+<h3>Heading level 3 - Maecenas interdum, elit ut accumsan luctus </h3>
+<p>18px on small and medium screens and 22px on large displays Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin lacus, at molestie odio.</p>
+<h4>Heading Level 4 -   Ut sodales, lorem quis ultrices sollicitudin</h4>
+<p>16px to 20px Ut sodales, lorem quis ultrices sollicitudin, massa dui tempus dolor, , elit ut accumsan luctus, eros dolor eleifend dolor, eget suscipit ante erat ac lectus.</p>
+<h5>Heading level 5 - Maecenas interdum, elit ut accumsan luctus </h5>
+<p>16px to 18px Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin lacus, at molestie odio.</p>
+<h6>Heading level 6 - Maecenas interdum, elit ut accumsan luctus </h6>
+<p>14px - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed sollicitudin lacus, at molestie odio.</p>
+
+<p>eros dolor eleifend dolor, eget suscipit ante erat ac lectus.  <a href="#">This is a text link</a> Ut sodales, lorem quis ultrices sollicitudin
+<strong>Strong is used to indicate strong importance</strong> at cursus erat urna vitae justo. Maecenas interdum</p>
+<em>This text has added emphasis</em>
+<p>Superscript<sup>®</sup></p>
+<p>Subscript for things like H<sub>2</sub>O</p>
+<p><small>This small text is small for for fine print, etc.</small></p></div>
+
+
+  </article>
+</div>
+
+
+<!-- SCRIPTS -->
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var sidebarAdjust = function() {
+      // Match footer/body height
+      var height = Math.max($(window).height(), $('#kss-main').height());
+
+      if ($(window).width() <= 768) {
+        $('#kss-main, #kss-nav').height('auto');
+      } else {
+        $('#kss-main, #kss-nav').height(height);
+      }
+    };
+
+    $(window).resize(sidebarAdjust);
+    $(window).scroll(sidebarAdjust);
+    sidebarAdjust();
+
+    // Ensure code blocks are highlighted properly...
+    $('pre>code').addClass('prettyprint');
+    prettyPrint();
+  });
+</script>
+
+
+</div></body>
+</html>

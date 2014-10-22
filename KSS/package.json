@@ -1,0 +1,20 @@
+{
+  "name": "tompkins",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^0.7.4",
+    "compass-options": "^0.1.1",
+    "gulp": "^3.6.0",
+    "gulp-compass": "^1.2.0",
+    "gulp-css-target": "^0.1.0",
+    "gulp-duration": "0.0.0",
+    "gulp-filesize": "0.0.6",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-jshint": "^1.5.1",
+    "gulp-kss": "^0.0.2",
+    "gulp-scss-lint": "^0.1.0",
+    "gulp-shell": "^0.2.4",
+    "jshint-stylish": "^0.1.5"
+  }
+}

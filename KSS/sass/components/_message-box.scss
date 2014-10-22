@@ -1,0 +1,44 @@
+// Message Box //
+//
+// Markup:
+// <div class="{$modifiers}">Message Box</div>
+//
+// .message-box--success - Good
+// .message-box--error - Bad
+//
+//
+// Styleguide 3.1
+
+
+%message-default {
+  // Adding a compass mixin
+  @include border-radius(10px);
+  border: 1px solid $grey-dark;
+  margin: $margins;
+  padding: $padding;
+  text-align: center;
+}
+
+
+
+.message-box {
+  @extend %message-default;
+  @extend %checkmark;
+  background-color: $grey-light;
+}
+
+.message-box--success {
+  @extend %message-default;
+  @extend %checkmark;
+  background-color: $green;
+}
+
+.message-box--error {
+  @extend %message-default;
+  background-color: $red;
+
+  a {
+    @include link($red-dark, $red-extradark);
+  }
+}
+

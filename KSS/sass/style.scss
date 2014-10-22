@@ -1,0 +1,13 @@
+
+// Global Partials (imported in verys specific orders)
+
+@import 'global/config';
+@import 'global/variables';
+@import 'global/mixins';
+@import 'global/extends';
+@import 'global/normalize';
+
+// Component Partials
+
+@import 'components/*';
+

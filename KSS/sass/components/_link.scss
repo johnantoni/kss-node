@@ -1,0 +1,41 @@
+// Link Styles
+//
+// Markup:
+// <p> This is some content with <a class="{$modifiers}" href="#">An Inline Link</a> </p>
+//
+// .link-blue - Blue Links
+// .link-red - Red Links
+// .link-grey - Grey Links
+//
+// Styleguide 2.1
+
+
+
+// Custom mixin takes 2 variables and provides defaults
+
+
+@mixin link($link-color:$grey-dark, $hover-color:$grey-extradark ){
+  color: $link-color;
+  &:hover, &:active, &:focus {
+    color: $hover-color;
+  }
+}
+
+a {
+  @include link;
+}
+
+
+.link-blue {
+  @include link (blue, dark-blue);
+}
+
+.link-red {
+  @include link (red, brown);
+}
+
+.link-grey {
+  @include link (#ccc, #666);
+}
+
+

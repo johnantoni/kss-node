@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>KSS: Living Styleguide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="../css/styleguide.css">
+</head>
+<body><div id="kss-wrapper">
+
+<div id="kss-nav">
+  <header id="kss-header">
+    <hgroup><h1>kss-node Styleguide</h1></hgroup>
+  </header>
+  <aside>
+    <nav><ul>
+      <li><a href="index.html">0.0: Overview</a></li>
+      <li><a href="section-1.html">1.0: Typography &amp; Base Elements</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-2.html">2.0: Links &amp; Buttons</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-2.html#2.1">2.1: Link Styles</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-3.html">3.0: Panels</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-3.html#3.1">3.1: Message Box //</a>
+            <li><a href="section-3.html#3.1">3.1: Tabs</a>
+        </ul>
+        -->
+      </li>
+    </ul></nav>
+  </aside>
+</div>
+<div role="main" id="kss-main">
+  <article id="kss-content">
+
+
+      <h1 class="kss-title"><span class="kss-ref">3.0</span> - Panels</h1>
+
+        <div class="kss-box"><p>Boxes and containers</p>
+</div>
+
+
+      <section class="kss-depth-2">
+
+      <h1 class="kss-title"><span class="kss-ref">3.1</span> - Message Box //</h1>
+
+
+        <table class="kss-mod-list">
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Default styling</p></td>
+            <td class="kss-mod-name"></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><div class="{$modifiers}">Message Box</div></td>
+          </tr>
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Good</p>
+</td>
+            <td class="kss-mod-name"><p>.message-box--success</p></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><div class="message-box--success">Message Box</div></td>
+          </tr>
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Bad</p>
+</td>
+            <td class="kss-mod-name"><p>.message-box--error</p></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><div class="message-box--error">Message Box</div></td>
+          </tr>
+        </table>
+
+        <div class="kss-markup">
+          <pre class="prettyprint lang-html">&lt;div class=&quot;{$modifiers}&quot;&gt;Message Box&lt;/div&gt;</pre>
+        </div>
+
+      </section>
+      <section class="kss-depth-2">
+
+      <h1 class="kss-title"><span class="kss-ref">3.1</span> - Tabs</h1>
+
+
+        <table class="kss-mod-list">
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Default styling</p></td>
+            <td class="kss-mod-name"></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><div class="tabs__wrapper"> <!-- this is not in the read markup -->
+<div class="panel-pane pane-page-tabs">
+  <div class="pane-content">
+    <div id="tabs"><h2 class="element-invisible">Primary tabs</h2>
+    <ul class="tabs primary"><li class="active"><a href="/users/administrator" class="active">View<span class="element-invisible">(active tab)</span></a></li>
+      <li><a href="/user/1/edit">Edit</a></li>
+      <li><a href="/user/1/imce">File browser</a></li>
+    </ul></div>
+</div> </div>
+</div></td>
+          </tr>
+        </table>
+
+        <div class="kss-markup">
+          <pre class="prettyprint lang-html">&lt;div class=&quot;tabs__wrapper&quot;&gt; &lt;!-- this is not in the read markup --&gt;
+&lt;div class=&quot;panel-pane pane-page-tabs&quot;&gt;
+  &lt;div class=&quot;pane-content&quot;&gt;
+    &lt;div id=&quot;tabs&quot;&gt;&lt;h2 class=&quot;element-invisible&quot;&gt;Primary tabs&lt;/h2&gt;
+    &lt;ul class=&quot;tabs primary&quot;&gt;&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;/users/administrator&quot; class=&quot;active&quot;&gt;View&lt;span class=&quot;element-invisible&quot;&gt;(active tab)&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/user/1/edit&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/user/1/imce&quot;&gt;File browser&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</pre>
+        </div>
+
+      </section>
+  </article>
+</div>
+
+
+<!-- SCRIPTS -->
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var sidebarAdjust = function() {
+      // Match footer/body height
+      var height = Math.max($(window).height(), $('#kss-main').height());
+
+      if ($(window).width() <= 768) {
+        $('#kss-main, #kss-nav').height('auto');
+      } else {
+        $('#kss-main, #kss-nav').height(height);
+      }
+    };
+
+    $(window).resize(sidebarAdjust);
+    $(window).scroll(sidebarAdjust);
+    sidebarAdjust();
+
+    // Ensure code blocks are highlighted properly...
+    $('pre>code').addClass('prettyprint');
+    prettyPrint();
+  });
+</script>
+
+
+</div></body>
+</html>

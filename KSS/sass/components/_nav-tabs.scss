@@ -1,0 +1,43 @@
+// Tabs
+//
+// Markup:
+// <div class="tabs__wrapper"> <!-- this is not in the read markup -->
+// <div class="panel-pane pane-page-tabs">
+//   <div class="pane-content">
+//     <div id="tabs"><h2 class="element-invisible">Primary tabs</h2>
+//     <ul class="tabs primary"><li class="active"><a href="/users/administrator" class="active">View<span class="element-invisible">(active tab)</span></a></li>
+//       <li><a href="/user/1/edit">Edit</a></li>
+//       <li><a href="/user/1/imce">File browser</a></li>
+//     </ul></div>
+// </div> </div>
+// </div>
+//
+// Styleguide 3.1
+
+
+.tabs {
+  @extend %inline-links;
+  @extend %clearfix;
+  padding-left: 0;
+
+
+  a {
+  background-color: $grey-light;
+  border: 1px solid $grey-medium;
+  padding-left: rhythm(1);
+  padding-right: rhythm(1);
+
+    &.active {
+      background-color: $white;
+      border-bottom: 0;
+      color: $grey-dark;
+    }
+  }
+}
+
+@include jacket(styleguide){
+  .tabs__wrapper {
+    background-color: $white;
+    padding: 3em;
+  }
+}

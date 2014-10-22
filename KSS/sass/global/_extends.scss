@@ -1,0 +1,35 @@
+// Extends here
+
+// Place Holders (Don't actually output css on their own)
+
+%checkmark {
+  &:after{
+    content:  "\2713 ";
+    margin-left: 1em;
+  }
+}
+
+// Applied to ul elements
+%inline-links {
+  display: inline-block;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: rhythm(0.25);
+    text-decoration: none;
+  }
+}
+
+
+%clearfix {
+  @include clearfix;
+}
+
+
+%visuallyhidden {
+  @include visuallyhidden;
+}
